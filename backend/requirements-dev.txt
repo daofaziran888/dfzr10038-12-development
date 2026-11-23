@@ -1,0 +1,5 @@
+# 仅测试环境需要：FastAPI TestClient 依赖 httpx；测试本身用标准库 unittest。
+-r requirements.txt
+httpx==0.28.1
+httpcore==1.0.9
+certifi==2026.11.20
